@@ -1,0 +1,37 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 20rem;
+  align-items: center;
+  background-color: #fef7f2;
+  padding-inline: 10rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 70px;
+  }
+
+  &__text {
+    font-size: 18px;
+    color: #2b1b12;
+    font-weight: bold;
+    margin-top: 32px;
+  }
+
+  &__button {
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background-color: #2b1b12;
+    text-transform: capitalize;
+    font-weight: 600;
+    width: 175px;
+    margin-top: 72px;
+    cursor: pointer;
+  }
+}
