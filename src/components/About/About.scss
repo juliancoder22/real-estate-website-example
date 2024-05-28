@@ -1,0 +1,44 @@
+.about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10rem;
+
+  img {
+    width: 50%;
+  }
+
+  &__title {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #2b1b12;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2b1b12;
+    margin-top: 32px;
+    line-height: 1.6rem;
+  }
+
+  &__stats {
+    display: flex;
+    gap: 62px;
+    margin-top: 48px;
+  }
+
+  &__stat {
+    h3 {
+      font-size: 48px;
+      font-weight: bolder;
+      color: #4f3527;
+    }
+
+    span {
+      color: #4f3527;
+      font-weight: 600;
+    }
+  }
+}
